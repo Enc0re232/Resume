@@ -1,0 +1,84 @@
+{% load static %}
+
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Matvey Demyanenko</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-picture" src="{% static '/img/photo_for_profile.jpg' %}">
+                    <hr>
+                    <h4>Hi I`m Matvey!</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>Who I Am?</h4>
+                <hr>
+                <p>
+                    Greetings to everyone who is currently looking at my resume. I'd like to tell you a little bit about myself<br>
+                    <p>First of all, programming is my second life, the thing that can change a person completely, both his inner world and his outer world.<br></p>
+                    <p>Secondly, I have skills and tools that can solve many problems, I am ready to "eat" new knowledge, to work through my mistakes, because this is the key to success!</p> 
+                <br>I hope to see you again! 
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>Education</h5>
+                <hr>
+                <p>ISUCT Ivanovo
+                <br>September 2022 - Now a days</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>Work experience</h5>
+                <hr>
+                <p>Garpix Ivanovo
+                <br>Educational practice April 2023 - June 2023</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My main project</h5>
+                <hr>
+                <p>Github API integration Garpix practice
+                    <br>Tool for repo monitoring:
+                    <br>◦ GitHub API integration
+                    <br>◦ Simple django server
+                    <br>◦ JSON processing</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>Programming Skills</h5>
+                <hr>
+                <p>Languages: Python, HTML, CSS<br>
+                   Technologies: Django, Django ORM, DRF, Django libs, Postman, PostgreSQL, external API, git, Docker,
+                    Rest API</p>
+            </div>
+        </div>
+    <br>
+    </div>
+    
+
+</body>
+</html>
